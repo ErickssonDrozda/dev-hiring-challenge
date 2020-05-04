@@ -32,5 +32,5 @@ class Repository_Data_info(Base):
         self.url_repository = url_repository
         self.repository_id = repository_id
 
-engine = create_engine('mysql://repositories:Qn6V73_68f~z@den1.mysql1.gear.host:3306/Repositories', echo=False)
+engine = create_engine('mysql://repositories:olhaquelegalefacilcolocarobancoaqui.com/repositories', echo=False)
 Base.metadata.create_all(engine)
